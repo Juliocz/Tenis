@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--color-theme);
+    min-height: 100vh;
+    display: flex;
+  }
+
+  h1{
+      font-weight: bold;
+
+  }
+
+
+.contenedor{
+
+    min-width: 200px;
+    min-height: 200px;
+    max-width: 600px;
+    background-color: white;
+    border-radius: 10px;
+    margin: auto !important;
+
+    padding: 30px;
+
+    animation-name: girar;
+animation-duration: 1.5s;
+}
+@keyframes girar {
+  from {
+
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+.contenedor img{
+    max-width: 100%;
+    width:600px;
+}
+.contenedor form{
+    display: grid;
+    grid-gap: var(--padding-grap);
+    padding: var(--padding-grap);
+}
+.contenedor form button{
+/*
+    margin-left: auto;
+    margin-right: auto;*/
+}

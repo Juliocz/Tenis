@@ -1,0 +1,22 @@
+:root {
+    --color-theme: #009341;
+    --color-themehover: #2afd89;
+    --color-themeshadow: #095f2f;
+    --color-themeText: white;
+
+    --color-theme2:white;
+    --color-themehover2:rgba(255, 255, 255, 0.781);
+    --color-themeText2: black;
+    /*--color-backgroundcontenedor: rgba(10, 9, 9, 0.863);
+    /*--color-textform: rgb(255, 255, 255);*/
+
+    --padding-grap:10px;
+  }
+
+  button{
+    border-radius: 100px !important;
+    font-weight: bold !important;
+}
+
+
+
